@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=MaquinaVerificacion
+comment1.params=numCi
+comment1.target=int\ ultimoDigito(int)
+numComments=2
