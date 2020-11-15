@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ModuloRobotico
+comment1.params=
+comment1.target=ModuloRobotico()
+comment2.params=
+comment2.target=java.lang.String\ recolectarSavia()
+comment3.params=
+comment3.target=java.lang.String\ condensarSavia()
+comment4.params=
+comment4.target=void\ retirarComponentes()
+comment5.params=
+comment5.target=void\ cambiarEstado()
+numComments=6

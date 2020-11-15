@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LibrumMemoriae
+comment1.params=tarea
+comment1.target=LibrumMemoriae(java.lang.String)
+comment2.params=nuevaTarea
+comment2.target=java.lang.String\ anotarTarea(java.lang.String)
+comment3.params=
+comment3.target=void\ concluirTarea()
+comment4.params=
+comment4.target=int\ getContador()
+comment5.params=
+comment5.target=java.lang.String\ getTarea()
+numComments=6

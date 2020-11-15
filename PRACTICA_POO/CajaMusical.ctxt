@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CajaMusical
+comment1.params=cancion1\ cancion2\ cancion3
+comment1.target=CajaMusical(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ reproducirCancion()
+comment3.params=
+comment3.target=java.lang.String\ pausarCancion()
+comment4.params=nextCancion
+comment4.target=void\ cambiarCancion(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getNombre()
+numComments=6
