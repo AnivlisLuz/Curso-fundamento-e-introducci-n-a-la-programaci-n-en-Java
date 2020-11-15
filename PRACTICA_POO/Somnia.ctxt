@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=Somnia
-comment1.params=
-comment1.target=Somnia()
+comment1.params=alcance\ durabilidad
+comment1.target=Somnia(int,\ int)
 comment2.params=
 comment2.target=java.lang.String\ apuntar()
 comment3.params=modulo1\ modulo2
-comment3.target=java.lang.String\ combinarModulos(Somnia,\ Somnia)
+comment3.target=Somnia\ combinarModulos(Somnia,\ Somnia)
 numComments=4

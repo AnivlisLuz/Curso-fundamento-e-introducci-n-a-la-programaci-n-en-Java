@@ -2,19 +2,21 @@ public class CajaMusical{
     private String cancion1;
     private String cancion2;
     private String cancion3;
+    
+    private String actual;
     private boolean estado;
 
     public CajaMusical(String cancion1, String cancion2, String cancion3){
         this.cancion1 = cancion1;
         this.cancion2 = cancion2;
         this.cancion3 = cancion3;
+        actual = this.cancion1;
         estado = false;
     }
 
     public String reproducirCancion(){
-        String cancion = cancion1;
         String reporte;
-        if (estado == false){
+        if (!estado){
             reporte = "La canción ha empezado a sonar";
             estado = true;
         }else{
@@ -24,7 +26,6 @@ public class CajaMusical{
     }
 
     public String pausarCancion(){
-        String cancion = cancion1;
         String reporte;
         if (estado){
             reporte = "La canción ha sido Pausada";
@@ -34,13 +35,18 @@ public class CajaMusical{
         }
         return reporte;
     }
-    
-    public void cambiarCancion(String nextCancion){
-        cancion1 = nextCancion;
+
+    public void cambiarCancion(){
+        if(actual == cancion1){
+            actual= cancion2;
+        }else if(actual == cancion2){
+            actual = cancion3;
+        }else{
+            actual = cancion1;
+        }
     }
 
     public String getNombre(){
-        String cancion = cancion1;
-        return cancion;
+        return actual;
     }
 }

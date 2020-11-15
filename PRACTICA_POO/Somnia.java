@@ -3,9 +3,9 @@ public class Somnia{
     private int durabilidad;
     private int contadorOb;
 
-    public Somnia(){
-        alcanceViOp = (int)(Math.random()*100)+1;
-        durabilidad = (int)(Math.random()*100)+1;
+    public Somnia(int alcance, int durabilidad){
+        alcanceViOp = alcance;
+        this.durabilidad = durabilidad;
         contadorOb = 0;
     }
 
@@ -21,11 +21,11 @@ public class Somnia{
         return reporte;
     }
 
-    public String combinarModulos(Somnia modulo1, Somnia modulo2){
-        String reporte;
+    public Somnia combinarModulos(Somnia modulo1, Somnia modulo2){
+        Somnia modulo3;
         int alcanceViOp = modulo1.alcanceViOp + modulo2.alcanceViOp;
         int durabilidad = Math.min (modulo1.durabilidad, modulo2.durabilidad);
-        reporte = "Alcance de Visió Optimo = "+alcanceViOp+", durabilidad = "+ durabilidad;
-        return reporte;
+        modulo3 = new Somnia(alcanceViOp,durabilidad);
+        return modulo3;
     }
 }
