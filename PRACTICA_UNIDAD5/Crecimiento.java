@@ -1,33 +1,15 @@
-
-/**
- * Write a description of class Crecimiento here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class Crecimiento
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Crecimiento
-     */
-    public Crecimiento()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+public class Crecimiento{
+    public String crecimiento (int num){
+        String reporte;
+        int primerDigito = num/100;
+        int segundoDigito = num/10 % 10;
+        int tercerDigito = num % 10;
+        if(primerDigito < segundoDigito && primerDigito < tercerDigito && segundoDigito < tercerDigito){
+            reporte = num + " es un número en crecimiento";
+        }else{
+            reporte = num + " no es un número en crecimiento";
+        }
+        
+        return reporte;
     }
 }
