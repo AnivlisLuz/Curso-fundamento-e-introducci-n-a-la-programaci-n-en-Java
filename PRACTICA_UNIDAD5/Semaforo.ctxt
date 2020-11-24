@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Semaforo
+comment1.params=estado
+comment1.target=Semaforo(java.lang.String)
+comment2.params=
+comment2.target=void\ cambiarEstado()
+numComments=3

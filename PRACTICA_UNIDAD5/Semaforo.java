@@ -1,33 +1,16 @@
-
-/**
- * Write a description of class Semaforo here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class Semaforo
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Semaforo
-     */
-    public Semaforo()
-    {
-        // initialise instance variables
-        x = 0;
+public class Semaforo{
+    private String estadoActual;
+    public Semaforo (String estado){
+        estadoActual = estado;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    
+    public void cambiarEstado(){
+        if(estadoActual == "Verde"){
+            estadoActual= "Amarillo";
+        }else if(estadoActual == "Amarillo"){
+            estadoActual = "Rojo";
+        }else{
+            estadoActual = "Verde";
+        }
+    }  
 }
