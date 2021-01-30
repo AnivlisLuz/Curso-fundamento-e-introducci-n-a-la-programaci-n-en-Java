@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ContactsManager
+comment1.params=
+comment1.target=ContactsManager()
+comment2.params=person
+comment2.target=void\ add(Person)
+comment3.params=phone
+comment3.target=Person\ findByPhone(java.lang.String)
+comment4.params=name
+comment4.target=Person\ findByName(java.lang.String)
+comment5.params=
+comment5.target=void\ sortAlphabetically()
+numComments=6

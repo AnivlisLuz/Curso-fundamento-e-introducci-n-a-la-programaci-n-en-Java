@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MessagesManager
+comment1.params=
+comment1.target=MessagesManager()
+comment2.params=message
+comment2.target=void\ sendMessage(Message)
+comment3.params=message
+comment3.target=void\ receiveMessage(Message)
+comment4.params=
+comment4.target=java.util.ArrayList\ getReceivedMessages()
+comment5.params=person
+comment5.target=java.util.ArrayList\ getReceivedMessagesFromFriend(Person)
+comment6.params=
+comment6.target=java.util.ArrayList\ getSentMessages()
+comment7.params=phone
+comment7.target=java.util.ArrayList\ getSentMessagesFromFriend(java.lang.String)
+numComments=8
